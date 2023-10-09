@@ -1,0 +1,41 @@
+.list-group > .list-group-item {
+    min-width: 20em;
+}
+
+section ul{
+    margin-right: 10em;
+}
+
+
+.txt {
+    min-width: 280px;
+    max-width: 280px;
+}
+
+.carousel-container {
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    flex-direction: column;
+}
+
+.carousel-inner {
+    text-align: left; 
+}
+
+
+@media (max-width: 1280px) {
+    .list-group > .list-group-item{
+        display: none;
+    }
+
+    section ul{
+        display: none;
+        max-width: 0em;
+        margin-right: 0em;
+    }
+
+    section txt-container{
+        transform: translateX(50%);
+    }
+}
